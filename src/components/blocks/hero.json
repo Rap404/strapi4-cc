@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_hero_s",
+  "info": {
+    "displayName": "Hero ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button-link"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
